@@ -42,6 +42,8 @@ python train.py --img 640 --batch 16 --epochs 50 --data data.yaml --weights yolo
 
 # Validate model
 python val.py --weights best.pt --data data.yaml --img 640
+
+cd ..
 ```
 
 ### Option 2: Minimal YOLOv5 Implementation
